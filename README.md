@@ -6,6 +6,7 @@ Docker Compose
 The project includes a docker-compose.yml file to define a Docker Compose service for the Flask application and Redis. The service uses the Docker image built from the Dockerfile and sets environment variables for the Redis connection.
 
 Running the App with Docker
+
 Build the Docker image: docker build -t dockerized-hit .
 Run the Docker container: docker run -p 5000:5000 -e REDIS_HOST=redis -e REDIS_PORT=6379 hit-counter-app
 Open a web browser and navigate to http://localhost:8000
