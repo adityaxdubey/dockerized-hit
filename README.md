@@ -1,4 +1,4 @@
-# dockerized-hit
+# Docker Demo Project: Flask App with Redis
 The project serves as a learning exercise to understand how to containerize a web application and use environment variables to configure the Redis connection.
 The project consists of a Flask application that displays a custom message to repeat visitors. The application uses Redis as a cache to keep track of the number of visits. If the Redis connection fails, the application will retry the connection a specified number of times before raising an error.
 
